@@ -1,1 +1,1 @@
-<h2>Live Preview <a href="https://akashasahu07.github.io/Tic-Tac_Toe/">👉 Click Here</a></h2>
+<h2>Live Preview <a href="https://akashasahu07.github.io/Tic-Tac-Toe/">👉 Click Here</a></h2>
