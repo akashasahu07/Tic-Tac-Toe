@@ -12,7 +12,7 @@ function Click(boxId) {
             alert(player + "-Wins!");
         }
         else if (isTie()) {
-                alert("It's a Tie!");
+            alert("It's a Tie!");
         }
         else {
             player = player === "O" ? "X" : "O";
