@@ -10,9 +10,11 @@ function Click(boxId) {
         d.innerHTML = player;
         if (Winner()) {
             alert(player + "-Wins!");
+            window.location.reload() // This will refresh the page after click ok on the alert message
         }
         else if (isTie()) {
             alert("It's a Tie!");
+            window.location.reload() // This will refresh the page after click ok on the alert message
         }
         else {
             player = player === "O" ? "X" : "O";
