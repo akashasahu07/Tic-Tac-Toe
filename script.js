@@ -9,7 +9,7 @@ function Click(boxId) {
     if (d.innerHTML === "") { // Prevent overwriting existing values
         d.innerHTML = player;
         if (Winner()) {
-            alert(player + "-Wins!");
+            alert("Player " + player + " - Wins!");
             window.location.reload() // This will refresh the page after click ok on the alert message
         }
         else if (isTie()) {
